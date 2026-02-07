@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="cobblemarket"
+version="1.0.0"
+displayName="CobbleMarket"
+authors="WhosLucid"
+description='''
+CobbleMarket - A server-side Pokemon and Item marketplace mod for Cobblemon on NeoForge.
+Features fixed-price listings, auctions, multi-currency support, and advanced filters.
+Part of the Cobble Suite by WhosLucid.
+'''
+
+[[dependencies.cobblemarket]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.90,)"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.cobblemarket]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.cobblemarket]]
+    modId="cobblemon"
+    type="required"
+    versionRange="[1.7.0,)"
+    ordering="AFTER"
+    side="SERVER"
+
+[[dependencies.cobblemarket]]
+    modId="gooeylibs"
+    type="required"
+    versionRange="[3.0.0,)"
+    ordering="AFTER"
+    side="SERVER"
+
+[[dependencies.cobblemarket]]
+    modId="cobblelib"
+    type="required"
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="SERVER"

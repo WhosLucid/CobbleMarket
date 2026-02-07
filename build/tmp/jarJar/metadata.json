@@ -1,0 +1,16 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "net.objecthunter",
+        "artifact": "exp4j"
+      },
+      "version": {
+        "range": "[0.4.8,1.0)",
+        "artifactVersion": "0.4.8"
+      },
+      "path": "META-INF/jarjar/exp4j-0.4.8.jar",
+      "isObfuscated": false
+    }
+  ]
+}
